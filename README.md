@@ -9,7 +9,7 @@
 2. ftp client
 
  
-#사용법
+# 사용법
 ```java
 import org.moara.ftp.client.FtpClient;
 
@@ -26,9 +26,9 @@ public class FtpFileUpload {
 ```
 - src test 패키지 참조
 
-#gradle
+# gradle
 implementation 'org.moara.ftp:moara-ftp:0.1.0'
 
-#etc
+# etc
 https://mvnrepository.com/artifact/org.moara.ftp/moara-ftp/0.1.0
 
