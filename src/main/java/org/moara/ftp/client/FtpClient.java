@@ -57,8 +57,8 @@ public class FtpClient {
 	 * @param port int port
 	 * @param filePath string send file path
 	 * @param savePath string send file path
-	 * @param fileReceiveCallbackClassName string file receive complete -> next job class full name
-	 * @param fileReceiveCallbackMessage string string file receive complete -> next job param message
+	 * @param fileReceiveCallbackClassName string file receive complete next job class full name
+	 * @param fileReceiveCallbackMessage string string file receive complete  next job param message
 	 * @param bufferArrSize int buffer size
 	 * @return boolean success fail flag
 	 */
