@@ -1,0 +1,23 @@
+
+### Gradle template
+/.gradle/
+/build/
+
+
+### Java template
+
+# Compiled class file
+
+*.class
+
+
+### gitignore
+bin/test/.gitignore
+bin/main/.gitignore
+
+
+
+### settings
+.settings
+.classpath
+.project
