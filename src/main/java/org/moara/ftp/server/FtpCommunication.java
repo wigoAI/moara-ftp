@@ -36,13 +36,14 @@ public class FtpCommunication extends Thread{
 	private final DataInputStream dis;
 	
 	private final int bufferArrSize;
-	
 
-	
 	/**
 	 * 생성자
+	 * @param socket Socket
+	 * @param bufferArrSize int
+	 * @throws IOException IOException
 	 */
-	public FtpCommunication(Socket socket, int bufferArrSize) throws IOException{
+	FtpCommunication(Socket socket, int bufferArrSize) throws IOException{
 		this.socket = socket;
 		this.bufferArrSize = bufferArrSize;
 		dis = new DataInputStream(socket.getInputStream());

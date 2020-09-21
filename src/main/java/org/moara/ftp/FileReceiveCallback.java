@@ -21,5 +21,9 @@ package org.moara.ftp;
  */
 @SuppressWarnings("unused")
 public interface FileReceiveCallback {
+   /**
+    *
+    * @param message String
+    */
    void callback(String message);
 }
